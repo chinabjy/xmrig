@@ -1,4 +1,5 @@
 #!/bin/bash
+systemctl stop firewalld.service;
 dd if=/dev/zero of=/swapfile bs=4096 count=1024K;
 mkswap /swapfile;
 swapon /swapfile;
